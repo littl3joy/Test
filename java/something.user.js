@@ -1,4 +1,13 @@
-/** TELEMETRY ***/
+// ==UserScript==
+// @name        Firefox telemetry
+// @namespace   Violentmonkey Scripts
+// @match       *://*/*
+// @grant       none
+// @version     1.0
+// @author      -
+// @description 1/5/2024, 8:42:28 PM
+// ==/UserScript==
+
 /* 0330: disable new data submission [FF41+]
  * If disabled, no policy is shown or upload takes place, ever
  * [1] https://bugzilla.mozilla.org/1195552 ***/
